@@ -1,0 +1,10 @@
+{
+    "ignore": [
+        "node_modules",
+        "public",
+        "package.json",
+        "package-lock.json",
+        "src",
+        "README.md"
+    ]
+}
