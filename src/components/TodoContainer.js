@@ -82,7 +82,7 @@ function TodoContainer() {
     } finally {
       setIsLoading(false);
     }
-  }, [AIRTABLE_API_TOKEN, URL, cache, cacheDuration]);
+  }, [cache, cacheDuration]);
 
   useEffect(() => {
     memoizedFetchData();
