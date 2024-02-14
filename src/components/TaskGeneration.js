@@ -8,7 +8,7 @@ import loadingSpinner from "../image_processing.gif";
 const TaskGeneration = () => {
   const [generatedTasks, setGeneratedTasks] = useState([]);
   const [loading, setLoading] = useState(false);
-  const API_KEY = process.env.REACT_APP_OPEN_API_KEY;
+  const API_KEY = process.env.REACT_APP_API_KEY;
 
   const generateTasks = async () => {
     setGeneratedTasks([]);
