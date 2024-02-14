@@ -30,7 +30,7 @@ function AddTodoForm({ onAddTodo }) {
         value={todoTitle}
         onChange={handleTitleChange}
       >
-        Title
+        Title&nbsp;
       </InputWithLabel>
       <button type="submit" className={styles.button}>
         Add

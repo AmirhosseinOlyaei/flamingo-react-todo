@@ -3,6 +3,7 @@ import { useState, useEffect, useCallback, useContext } from "react";
 import { TodoCounterContext } from "../context/todoCounterContext";
 import AddTodoForm from "./AddTodoForm";
 import TodoList from "./TodoList";
+import styles from "./TodoListItem.module.css";
 
 function TodoContainer() {
   const [todoList, setTodoList] = useState([]);
@@ -225,14 +226,16 @@ function TodoContainer() {
 
   return (
     <section>
-      <h1>Todo List</h1>
+      <div className={styles.heading}>
+        <h1>Todo List</h1>
+        <span className={styles.spanStyle}>Item Counts: {count}</span>
+      </div>
       <AddTodoForm onAddTodo={addTodo} />
       {completionMessage && <p>{completionMessage}</p>}
       {isLoading ? (
         <p>Loading...</p>
       ) : (
         <>
-          <span>Item Counts: {count}</span>
           <TodoList
             todoList={todoList}
             onRemoveTodo={removeTodo}

@@ -1,0 +1,30 @@
+.svg-container {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: inline-block;
+    /* Needed to properly apply the filter to the svg */
+}
+
+.logo-svg {
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.3));
+}
+
+.logo-svg.no-transition {
+    animation: none;
+}
+
+.logo-svg.with-transition {
+    animation: fadeIn 2s ease-out forwards;
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

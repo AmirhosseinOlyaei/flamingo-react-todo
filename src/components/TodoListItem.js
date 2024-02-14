@@ -40,10 +40,9 @@ function TodoListItem({ todo, onRemoveTodo, onToggleComplete, onEditTodo }) {
       {/* <span style={{ color: isChecked ? "grey" : "inherit" }}>{title}</span> */}
       <div className={styles.column}>
         {isEditing ? (
-          <form onSubmit={handleEditSubmit}>
+          <form onSubmit={handleEditSubmit} className={styles.editInput}>
             <input
               type="text"
-              className={styles.input}
               value={editedTitle}
               onChange={(e) => setEditedTitle(e.target.value)}
               autoFocus

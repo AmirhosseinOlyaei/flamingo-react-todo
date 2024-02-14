@@ -3,10 +3,12 @@
     font-family: 'Arial', sans-serif;
     text-align: center;
     color: #333;
+    margin-top: 100px;
 }
 
 .main {
-    margin: 40px 15%;
+    margin: 50px 15%;
+    margin-top: 60px;
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 8px;
@@ -27,7 +29,7 @@
 
 .ctaButton {
     display: inline-block;
-    margin-top: 20px;
+    margin: 25px 0 10px 0;
     padding: 10px 20px;
     /* background-color: #4c9daf; */
     background-color: #7095e5;

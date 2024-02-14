@@ -1,0 +1,70 @@
+.generatedListContainer {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allows items to wrap to the next line if the container is too narrow */
+    align-items: flex-start;
+    /* Aligns items at the start of the container */
+    justify-content: flex-start;
+    /* Aligns items to the start of the main axis */
+    gap: 20px;
+    /* Adds space between items */
+    padding: 10px;
+    /* Padding inside the container */
+    background-color: #f9f9f9;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+.taskItem {
+    display: block;
+    background-color: #fff;
+    /* Light grey background for contrast */
+    margin-bottom: 1rem;
+    /* Spacing between tasks */
+    padding: 1rem;
+    /* Padding inside each task for content */
+    border-radius: 8px;
+    /* Rounded corners for a modern look */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    /* Subtle shadow for depth */
+    transition: all 0.2s ease-in-out;
+    /* Smooth transition for hover effects */
+
+    font-size: 1rem;
+    /* Font size for readability */
+    color: #333;
+    /* Dark color for text for contrast */
+    line-height: 1.5;
+    /* Line height for readability */
+
+    cursor: pointer;
+    /* Pointer cursor on hover */
+}
+
+.taskItem:hover {
+    background-color: #e2e2e200;
+    /* Slightly darker background on hover for feedback */
+    transform: translateY(-2px);
+    /* Slight raise effect on hover for interactivity */
+}
+
+.h1Style {
+    text-align: center;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.loader {
+    animation: fadeIn 7s ease-in-out forwards;
+}

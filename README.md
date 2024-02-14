@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center" style="color: #b48ead;">
-  React App: Todo List™
+  React App: Task Minder™
 </h1>
 
 [![Follow @AmirhosseinOlyaei](https://img.shields.io/github/followers/AmirhosseinOlyaei?label=Follow%20@AmirhosseinOlyaei&style=social)](https://github.com/AmirhosseinOlyaei?screen_name=AmirhosseinOlyaei)
@@ -13,19 +13,21 @@
 [![forks-shield](https://img.shields.io/github/forks/AmirhosseinOlyaei/react-todo.svg)](https://github.com/AmirhosseinOlyaei/react-todo/network/members)
 [![stars-shield](https://img.shields.io/github/stars/AmirhosseinOlyaei/react-todo.svg?color=lightblue)](https://github.com/AmirhosseinOlyaei/react-todo/stargazers)
 [![issues-shield](https://img.shields.io/github/issues/AmirhosseinOlyaei/react-todo.svg?color=pink)](https://github.com/AmirhosseinOlyaei/react-todo/issues)
-[![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](./LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/AmirhosseinOlyaei?color=darkgreen)](https://github.com/sponsors/AmirhosseinOlyaei)
 
 ![Todo list snapshot](./public/Todo-Screenshot.png)
 
-This is a Todo List application built using React.js.
+## Task Minder: Your Personal To-Do List Assistant
 
-- It allows you to add tasks, mark them as completed
-  and delete them from the list.
-- The app also includes functionalities like filtering tasks by status (completed or not) and sorting them in ascending or descending.
+Welcome to **Task Minder**, the ultimate to-do list application designed to streamline your task management and boost your productivity.
+
+Our app is crafted with care to help you stay organized, whether you're juggling personal errands, work assignments, or planning your next big project. With **Task Minder**, managing your daily tasks becomes effortless and intuitive.
 
 ## 📋 Table of Contents
 
+- [Key Features](#key-features)
+- [Why Choose Task Minder?](#why-choose-task-minder)
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
@@ -36,6 +38,27 @@ This is a Todo List application built using React.js.
 - [Contact](#contact)
 - [Author](#author)
 - [License](#license)
+- [Feedback](#feedback)
+
+## Key Features
+
+- **User Authentication**: Securely sign in and keep your tasks private and accessible across your devices.
+
+- **Task Management:** Create, edit, and delete tasks with ease. Organize them by priority, deadline, or custom categories.
+
+- **API Integration:** Synchronize your tasks across different platforms and devices, ensuring you're always up to date.
+
+- **Responsive UI Design:** Enjoy a seamless experience on any device, thanks to our adaptive and user-friendly interface.
+
+- **Custom Notifications:** Set reminders for your tasks and never miss a deadline again.
+
+## Why Choose Task Minder?
+
+**Simplicity:** Our clean and clutter-free interface makes navigating your to-do list a breeze.
+
+**Efficiency:** With features like drag-and-drop organization and quick edit options, managing your tasks has never been faster.
+
+**Customization:** Tailor your task management experience with customizable themes, task categories, and notification sounds.
 
 <a id="getting-started"></a>
 
@@ -133,7 +156,6 @@ The application will open in your default web browser at http://localhost:3000. 
 - [Epic React](https://epicreact.dev/modules/react-hooks/react-hooks-welcome)
 - [Beautiful DND](https://github.com/atlassian/react-beautiful-dnd)
 - [Markdown](https://www.markdownguide.org/)
-- [Code The Dream organization](https://codethedream.org/)
 
 ## Acknowledgments
 
@@ -158,3 +180,9 @@ If you have any questions or feedback, feel free to reach out to [DevArts](https
 ## 📜 License
 
 Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more information.
+
+## Feedback
+
+Your feedback is invaluable to us! If you have any suggestions or run into issues while using **Task Minder**, please open an issue on our GitHub repository. We're committed to making **Task Minder** the best it can be, and your input helps us achieve that goal.
+
+Thank you for choosing **Task Minder** as your to-do list companion. Let's make task management a seamless and productive part of your daily routine!
