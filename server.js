@@ -42,7 +42,7 @@ app.get("/api/todos", async (req, res) => {
 app.patch("/api/todos/:id", async (req, res) => {
   const todoId = req.params.id;
   const airtableData = req.body;
-  const updateURL = `${url}/${todoId}`;
+  const updateURL = `${url}/${todoId}${SORT_BY_LAST_MODIFIED_TIME}`;
 
   try {
     const response = await axios.patch(updateURL, airtableData, {
