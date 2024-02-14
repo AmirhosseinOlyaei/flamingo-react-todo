@@ -78,7 +78,7 @@ app.delete("/api/todos/:id", async (req, res) => {
 });
 
 // Endpoint for adding a new todo item
-app.post("/api/todos", async (req, res) => {
+app.post("/api/todos", cors(), async (req, res) => {
   const newTodoData = req.body;
 
   try {
