@@ -38,7 +38,7 @@
       "last 1 safari version"
     ]
   },
-  "description": "<p align=\"center\">   <a href=\"https://react-todo-amiro.vercel.app/\">     <img alt=\"Todo List\" src=\"./public/todo.png\" />   </a> </p> <h1 align=\"center\" style=\"color: #b48ead;\">   React App: Todo List™ </h1>",
+  "description": "",
   "main": "index.js",
   "keywords": [],
   "author": "",
