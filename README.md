@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://react-todo-amiro.vercel.app/">
+  <a href="https://task-minder-amiro.vercel.app/">
     <img alt="Todo List" src="./public/todo.png" />
   </a>
 </p>
@@ -8,7 +8,7 @@
 </h1>
 
 [![Follow @AmirhosseinOlyaei](https://img.shields.io/github/followers/AmirhosseinOlyaei?label=Follow%20@AmirhosseinOlyaei&style=social)](https://github.com/AmirhosseinOlyaei?screen_name=AmirhosseinOlyaei)
-[![Website](https://img.shields.io/badge/-website-CDA4DE)](https://react-todo-amiro.vercel.app/)
+[![Website](https://img.shields.io/badge/-website-CDA4DE)](https://task-minder-amiro.vercel.app/)
 [![contributors-shield](https://img.shields.io/github/contributors/AmirhosseinOlyaei/react-todo.svg)](https://github.com/AmirhosseinOlyaei/react-todo/graphs/contributors)
 [![forks-shield](https://img.shields.io/github/forks/AmirhosseinOlyaei/react-todo.svg)](https://github.com/AmirhosseinOlyaei/react-todo/network/members)
 [![stars-shield](https://img.shields.io/github/stars/AmirhosseinOlyaei/react-todo.svg?color=lightblue)](https://github.com/AmirhosseinOlyaei/react-todo/stargazers)
