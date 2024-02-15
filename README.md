@@ -9,10 +9,10 @@
 
 [![Follow @AmirhosseinOlyaei](https://img.shields.io/github/followers/AmirhosseinOlyaei?label=Follow%20@AmirhosseinOlyaei&style=social)](https://github.com/AmirhosseinOlyaei?screen_name=AmirhosseinOlyaei)
 [![Website](https://img.shields.io/badge/-website-CDA4DE)](https://task-minder-amiro.vercel.app/)
-[![contributors-shield](https://img.shields.io/github/contributors/AmirhosseinOlyaei/react-todo.svg)](https://github.com/AmirhosseinOlyaei/react-todo/graphs/contributors)
-[![forks-shield](https://img.shields.io/github/forks/AmirhosseinOlyaei/react-todo.svg)](https://github.com/AmirhosseinOlyaei/react-todo/network/members)
-[![stars-shield](https://img.shields.io/github/stars/AmirhosseinOlyaei/react-todo.svg?color=lightblue)](https://github.com/AmirhosseinOlyaei/react-todo/stargazers)
-[![issues-shield](https://img.shields.io/github/issues/AmirhosseinOlyaei/react-todo.svg?color=pink)](https://github.com/AmirhosseinOlyaei/react-todo/issues)
+[![contributors-shield](https://img.shields.io/github/contributors/AmirhosseinOlyaei/flamingo-react-todo.svg)](https://github.com/AmirhosseinOlyaei/flamingo-react-todo/graphs/contributors)
+[![forks-shield](https://img.shields.io/github/forks/AmirhosseinOlyaei/flamingo-react-todo.svg)](https://github.com/AmirhosseinOlyaei/flamingo-react-todo/network/members)
+[![stars-shield](https://img.shields.io/github/stars/AmirhosseinOlyaei/flamingo-react-todo.svg?color=lightblue)](https://github.com/AmirhosseinOlyaei/flamingo-react-todo/stargazers)
+[![issues-shield](https://img.shields.io/github/issues/AmirhosseinOlyaei/flamingo-react-todo.svg?color=pink)](https://github.com/AmirhosseinOlyaei/flamingo-react-todo/issues)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/AmirhosseinOlyaei?color=darkgreen)](https://github.com/sponsors/AmirhosseinOlyaei)
 
