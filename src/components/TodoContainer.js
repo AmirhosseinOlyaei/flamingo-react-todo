@@ -50,7 +50,7 @@ function TodoContainer() {
       //   },
       // });
       const response = await axios.get(
-        `${process.env.REACT_APP_API_URL}/todos`
+        `${process.env.REACT_APP_API_URL}/api/todos`
       ); // Pointing to Node.js server's endpoint
 
       const todos = response.data.records.map(
