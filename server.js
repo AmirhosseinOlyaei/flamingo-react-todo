@@ -1,8 +1,15 @@
-require("dotenv").config({ path: "./.env.local" });
+const inProduction = process.env.NODE_ENV === "production";
+if (inProduction) {
+  require("dotenv").config({ path: "./.env.production" });
+  console.log("Running in production mode!");
+} else {
+  require("dotenv").config({ path: "./.env.local" });
+}
 const express = require("express");
 const axios = require("axios");
 const cors = require("cors");
-
+const { resolve } = require("path");
+const morgan = require("morgan");
 const app = express();
 const port = process.env.PORT || 5001;
 
@@ -16,6 +23,7 @@ const SORT_BY_LAST_MODIFIED_TIME =
   "?sort[0][field]=completed&sort[0][direction]=asc&sort[1][field]=lastModifiedTime&sort[1][direction]=asc";
 const FETCH_AIRTABLE_URL = `${url}${SORT_BY_LAST_MODIFIED_TIME}`;
 
+app.use(morgan("tiny")); // Log HTTP requests
 app.use(cors()); // Enable CORS
 // { origin: "http://127.0.0.1:3000/" }
 app.use(express.json()); // Middleware to parse JSON bodies
@@ -96,6 +104,17 @@ app.post("/api/todos", cors(), async (req, res) => {
 });
 
 console.log("Hello from server.js");
+
+if (inProduction) {
+  // express will serve up production assets
+  app.use(express.static("build"));
+
+  // express will serve up the front-end index.html file if it doesn't recognize the route
+  app.get("*", (_, res) =>
+    res.sendFile(resolve(`${process.cwd()}/build/index.html`))
+  );
+}
+
 // Start the server
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
