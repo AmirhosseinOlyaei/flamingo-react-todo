@@ -29,7 +29,7 @@ app.use(cors()); // Enable CORS
 app.use(express.json()); // Middleware to parse JSON bodies
 
 // Proxy endpoint for fetching todos from Airtable
-app.get("/api/todos", async (req, res) => {
+app.get("/todos", async (req, res) => {
   // console.log("FETCH_AIRTABLE_URL", FETCH_AIRTABLE_URL);
   // process.exit(0);
   // return res.status(200).json({ todolist: [] });
