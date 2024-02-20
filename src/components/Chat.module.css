@@ -24,12 +24,12 @@
 }
 
 .input {
-    padding: 2px 5px 2px 5px;
+    padding: 2px 5px 2px 10px;
     margin: 0px;
     border: 1px solid #d5d9d9;
     border-radius: 8px;
     box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
-    font-size: 13px;
+    /* font-size: 13px; */
     line-height: 29px;
     vertical-align: middle;
     flex-grow: 1;

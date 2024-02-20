@@ -23,8 +23,8 @@ div button {
 }
 
 .customCheckbox {
-    width: 1.3em;
-    height: 1.3em;
+    width: 17px;
+    height: 17px;
     background-color: white;
     border-radius: 50%;
     vertical-align: middle;
@@ -39,8 +39,8 @@ div button {
 }
 
 .customCheckbox:checked {
-    width: 1.3em;
-    height: 1.3em;
+    width: 17px;
+    height: 17px;
     background-color: lightgray;
     border: 1px solid #fff;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
@@ -104,7 +104,7 @@ input {
     border: 1px solid #d5d9d9;
     border-radius: 8px;
     box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
-    font-size: 13px;
+    /* font-size: 13px; */
     line-height: 29px;
     vertical-align: middle;
     flex-grow: 1;
