@@ -218,7 +218,6 @@ section {
 @media (max-width: 600px) {
 
     body {
-        font-size: 14px;
         background-color: #f4f2ee;
         padding-top: 20px;
         min-width: fit-content;
