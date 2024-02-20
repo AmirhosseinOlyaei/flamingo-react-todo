@@ -34,6 +34,7 @@
     vertical-align: middle;
     flex-grow: 1;
     /* Allow input to grow and fill available space */
+    height: 36px;
 }
 
 .note {
@@ -73,6 +74,7 @@
     -webkit-user-select: none;
     touch-action: manipulation;
     vertical-align: middle;
+    height: 36px;
 }
 
 .button:hover {
