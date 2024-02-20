@@ -71,6 +71,12 @@ const Chat = () => {
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             placeholder="Type your message here..."
+            onKeyDown={(e) => {
+              if (e.key === "Enter") {
+                e.preventDefault(); // Prevent the default action of the Enter key
+                sendMessage();
+              }
+            }}
           />
           <button onClick={sendMessage} className={style.button}>
             Send
