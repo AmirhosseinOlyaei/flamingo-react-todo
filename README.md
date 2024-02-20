@@ -41,23 +41,17 @@ Our app is crafted with care to help you stay organized, whether you're juggling
 
 ## Key Features
 
-- **User Authentication**: Securely sign in and keep your tasks private and accessible across your devices.
-
 - **Task Management:** Create, edit, and delete tasks with ease. Organize them by priority, deadline, or custom categories.
 
 - **API Integration:** Synchronize your tasks across different platforms and devices, ensuring you're always up to date.
 
 - **Responsive UI Design:** Enjoy a seamless experience on any device, thanks to our adaptive and user-friendly interface.
 
-- **Custom Notifications:** Set reminders for your tasks and never miss a deadline again.
-
 ## Why Choose Task Minder?
 
 **Simplicity:** Our clean and clutter-free interface makes navigating your to-do list a breeze.
 
 **Efficiency:** With features like drag-and-drop organization and quick edit options, managing your tasks has never been faster.
-
-**Customization:** Tailor your task management experience with customizable themes, task categories, and notification sounds.
 
 <a id="getting-started"></a>
 
