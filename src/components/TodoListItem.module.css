@@ -105,7 +105,7 @@ input {
     border: 1px solid #d5d9d9;
     border-radius: 8px;
     box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
-    /* font-size: 13px; */
+    margin-inline-end: 5px;
     line-height: 29px;
     vertical-align: middle;
     flex-grow: 1;
