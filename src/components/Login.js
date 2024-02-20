@@ -70,7 +70,7 @@ const Login = () => {
                   </div>
                   <div className="text-sm">
                     <a
-                      href="#"
+                      href="/"
                       className="font-medium text-gray-500 hover:text-indigo-500"
                     >
                       (Having Trouble?)
