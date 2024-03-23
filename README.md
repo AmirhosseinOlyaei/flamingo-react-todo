@@ -16,7 +16,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/AmirhosseinOlyaei?color=darkgreen)](https://github.com/sponsors/AmirhosseinOlyaei)
 
-![Todo list snapshot](./public/Todo-Screenshot.png)
+![Todo list snapshot](./public/Task-Minder-Screenshot.png)
 
 ## Task Minder: Your Personal To-Do List Assistant
 
